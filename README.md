@@ -18,9 +18,5 @@ export SUBARCH=arm64
 export CROSS_COMPILE=aarch64-linux-gnu-
 export CROSS_COMPILE_ARM32=arm-linux-gnueabi-
 
--Wunused-label
-
-makefile关键词检索
-grep -r --include=*Makefile "Werror" .
-
-/bin/sh: 1: mkdtimg: not found
+mkdtimg可以从下面的项目release下载
+https://github.com/laityts/mkdtimg
